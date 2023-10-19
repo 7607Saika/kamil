@@ -330,4 +330,7 @@
     /* margin: 11px 20px; */
     border-bottom: 2px solid #fd4403;
 }
+.kmainboox > div{
+	width: 100%;
+}
 }

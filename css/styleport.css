@@ -113,6 +113,16 @@ body{
   padding-top: 20px;
   font-size: 40px;
  }
+ .kmainboox{
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	/*padding-top: 100px;*/
+ }
+ .kmainboox > div{
+width: calc(50% - 20px);
+height: 400px;
+ }
 
 
  .creativeteambx{
@@ -123,13 +133,14 @@ body{
 	flex-wrap: wrap;
 }
 .creativeteambx > div{
-	width: calc(50% - 10px);
+	width: calc(50.55% - 10px);
 	height: 400px;
 	/*background: red;*/
 }
 .team2 img{
-width: 100%;
+width: 500px;
 height: 400px;
+margin-top: 200px;
 
 }
 .paragraph1{
@@ -832,6 +843,7 @@ svg{
 footer p{
 	text-align: center;
 	color: grey;
+	padding-top: 300px;
 }
 .span2{
 	color: deeppink;
