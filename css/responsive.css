@@ -226,3 +226,108 @@
 }                                                                                                                 
 }
 
+@media(max-width: 738px){
+.mail{
+	display: none;
+}
+/*.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}*/
+
+.bx1{
+	width: 100%;
+}
+.bx2{
+	width: 100%;
+}
+.headbx2{
+ font-size: 36px;
+}
+
+.creativeteambx > div {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+       /* background: red; */
+}
+.mainbooox > div{
+	width: calc(50% - 10px);
+	margin-top: 15px;
+}
+
+
+.mainboox1{
+	width: 100%;
+}
+
+.mainboox4 > div{
+	width: 50%;
+	margin-top: 15px;
+}
+
+}
+@media(max-width: 619px){
+	.menu{
+		display: none;
+		position: absolute;
+		padding: 0;
+    flex-flow: column;
+    right: 0;
+    background: white;
+    left: 0;
+    top: 88px;
+    overflow: hidden;
+
+
+	}
+	.ri-menu-line {
+    display: block!important;
+    font-size: 28px;
+    color: #fd4403;
+    font-weight: bold;
+}
+
+	.servicesbx{
+		text-align: center;
+	}
+	.creativeteambx{
+		    padding-top: 19px;
+	}
+	.yearbox{
+		padding-bottom: 20px;
+		margin: auto;
+	}
+	.parabx2{
+		margin: auto;
+
+	}
+	.header3imgbx{
+		margin: auto;
+	}
+	.mainbox2 > div{
+		width: 100%;
+	}
+	.mainbooox > div{
+		width: 100%;
+
+	}
+	.mainboox4 > div{
+		width: 100%;
+
+	}
+	.mainboox4{
+		text-align: center;
+	}
+	.iconboox{
+		justify-content: center;
+	}
+.menu li {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+    /* margin: 11px 20px; */
+    border-bottom: 2px solid #fd4403;
+}
+}

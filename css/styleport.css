@@ -8,6 +8,157 @@ body{
 
 
 }
+.mainbooxx1{
+	display: flex;
+	width: 800px;
+	background: white;
+	/*box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;*/
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+	margin:auto;
+	flex-wrap: wrap;
+
+}
+
+.bx1{
+	width: 47%;
+	height: 450px;
+  position: relative;
+
+}
+.bx2{
+	width: 50%;
+	height: 450px;
+	padding: 10px;
+
+}
+.image{
+   object-fit: cover;
+   object-position: center;
+   width: 100%;
+   height: 100%;
+
+}
+.overlay{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background:skyblue;
+	opacity: 0;
+	transition: 1.5s ease;
+}
+.bx1:hover .overlay{
+	opacity: 1;
+}
+.text{
+	position: absolute;
+	font-size: 30px;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	color: white;
+	left: 50%;
+	text-align: center;
+}
+/*.image::before{
+	content: '';
+	position: absolute;
+	width: 400px;
+	height: 450px;
+	background: #22284873;
+}*/
+.headbx1{
+	padding-top: 40px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	margin: 0;
+
+}
+.parabx1{
+	color: grey;
+	text-align: center;
+	margin-top: 25px;
+	line-height: 1.8;
+}
+	.btn3{
+	padding: 10px 15px;
+	background: #fd4403;
+	border-radius: 8px;
+	border: none;
+	color: white;
+	outline: none;
+	display: flex;
+	margin: 30px auto;
+
+}
+.down{
+	color: grey;
+	text-align: center;
+}
+
+.headingbox1{
+	color: white;
+	text-align: center;
+	text-shadow: 10px 10px 15px orange;
+	font-size: 30px;
+	padding-top: 80px; 
+	margin:0;
+ }
+
+
+ .headingbox2{
+  text-align:center; 
+  margin: 0;
+  padding-top: 20px;
+  font-size: 40px;
+ }
+
+
+ .creativeteambx{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 100px;
+	flex-wrap: wrap;
+}
+.creativeteambx > div{
+	width: calc(50% - 10px);
+	height: 400px;
+	/*background: red;*/
+}
+.team2 img{
+width: 100%;
+height: 400px;
+
+}
+.paragraph1{
+	color: white;
+	padding-top: 20px;
+}
+.paragrapgh2{
+	color: grey;
+	padding-top: 10px;
+}
+.headingbox3{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
+	.btn4{
+	padding: 10px 15px;
+	background: #fd4403;
+	border-radius: 8px;
+	border: none;
+	color: white;
+	outline: none;
+	margin-top: 40px;
+}
+
+.section{
+	padding-top: 100px;
+
+}
 .header{
 	width: 100%;
 }
